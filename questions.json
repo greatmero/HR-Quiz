@@ -1,0 +1,170 @@
+[
+    {
+        "number": 1,
+        "question": "The basic function of the management process includes all of the following Except",
+        "answers": ["Planning", "Organizing", "Outsourcing", "Leading"],
+        "correct": 2,
+        "explanation": "Outsourcing is not a core function of the management process. The fundamental functions include planning, organizing, staffing, leading, and controlling. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 2,
+        "question": "Which of the following is the person responsible for accomplishing an organization’s goals by managing the efforts of the organization’s people?",
+        "answers": ["Manager", "Entrepreneur", "Generalist", "Marketer"],
+        "correct": 0,
+        "explanation": "A manager is responsible for planning, organizing, leading, and controlling to achieve organizational goals. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 3,
+        "question": "Which of the following includes five basic functions – planning, organizing, staffing, leading, and controlling?",
+        "answers": ["A Job analysis", "Strategic Management", "The management process", "Adaptability screening"],
+        "correct": 2,
+        "explanation": "The management process consists of five core functions: planning, organizing, staffing, leading, and controlling. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 4,
+        "question": "Which function of the management process requires a manager to establish goals and standards and to develop rules and procedures?",
+        "answers": ["Planning", "Organizing", "Stuffing", "Leading"],
+        "correct": 0,
+        "explanation": "Planning involves setting objectives, establishing rules, and forecasting trends to ensure organizational success. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 5,
+        "question": "Claire spends most of her time at work establishing goals for her staff of fifty employees and developing procedures for various tasks. In which function of the management process does Claire spend most of her time?",
+        "answers": ["Leading", "Controlling", "Organizing", "Planning"],
+        "correct": 3,
+        "explanation": "Planning is the process of setting objectives and developing strategies to achieve them. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 6,
+        "question": "Jolene, a manager, delegates the authority for a project to Lee, her subordinate. Jolene is most likely involved in which function of the management process?",
+        "answers": ["Staffing", "Organizing", "Motivating", "Leading"],
+        "correct": 1,
+        "explanation": "Organizing involves delegating tasks, assigning responsibilities, and structuring teams effectively. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 7,
+        "question": "Which function of the management process includes selecting employees, setting performance standards, and compensating employees?",
+        "answers": ["Organizing", "Planning", "Motivating", "Staffing"],
+        "correct": 3,
+        "explanation": "Staffing focuses on hiring, performance assessment, and employee compensation. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 8,
+        "question": "Lary is a manager at a commercial real estate firm and has established a monthly sales quota for his sales team. Which basic function of management best describes Lary’s action?",
+        "answers": ["Organizing", "Planning", "Controlling", "Staffing"],
+        "correct": 2,
+        "explanation": "Controlling involves setting standards, measuring actual performance, and taking corrective action. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 9,
+        "question": "____________ is the process of acquiring, training, appraising, and compensating employees, and attending to their labor relations, health and safety, and fairness concerns.",
+        "answers": ["Labor Relations", "Human Resource Management", "Behavioral Management", "Organizational Health and Safety Management"],
+        "correct": 1,
+        "explanation": "Human Resource Management (HRM) involves handling all aspects of workforce management, from hiring to compensation. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 10,
+        "question": "In the management process, which of the following is an activity associated with the leading function?",
+        "answers": ["Motivating Subordinates", "Setting Performance Standards", "Training New Employees", "Developing Procedures"],
+        "correct": 0,
+        "explanation": "Leading involves motivating and inspiring employees to achieve organizational goals. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 11,
+        "question": "Personal activities associated with human resource management most likely include all of the following EXCEPT:",
+        "answers": ["Orienting and Training New Employees", "Appraising Employee Performance", "Building Employee Commitment", "Developing Customer Relations"],
+        "correct": 3,
+        "explanation": "HRM focuses on employees, while developing customer relations falls under marketing functions. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 12,
+        "question": "Since human resource management is important to all managers, which is NOT a personal mistake a manager wants to avoid making while managing?",
+        "answers": ["Wasting Time with Useless Interviews", "Hiring the Wrong Person", "Having Your People Not Doing Their Best", "Experiencing a Low Turnover"],
+        "correct": 3,
+        "explanation": "Low turnover is generally positive, as it indicates workforce stability and employee satisfaction. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 13,
+        "question": "Which of the following best defines line authority?",
+        "answers": ["Management over a small staff in a public firm", "Management with a flexible decision-making power", "A manager’s right to advise other managers or employees", "A manager’s right to issue orders to other managers or employees"],
+        "correct": 3,
+        "explanation": "Line authority is the right of a manager to issue orders and make decisions that impact subordinates. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 14,
+        "question": "Gerad is authorized to direct the work of subordinates and is responsible for accomplishing the organization’s tasks. Gerad is most likely a:",
+        "answers": ["Training Specialist", "Staff Manager", "Line Manager", "Recruiter"],
+        "correct": 2,
+        "explanation": "A line manager is responsible for overseeing the work of subordinates and ensuring that company goals are achieved. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 15,
+        "question": "Which of the following is NOT considered as line supervisor’s responsibilities for effective human resources management?",
+        "answers": ["Protecting employee health and physical conditions", "Changing employees’ attitudes regarding work", "Developing the abilities of each person", "Interpreting the company policies and procedures"],
+        "correct": 1,
+        "explanation": "Changing employees’ attitudes is influenced by multiple factors, and is not a direct responsibility of line supervisors. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 16,
+        "question": "A line manager’s human resource responsibilities most likely include all the following EXCEPT:",
+        "answers": ["Managing department morale", "Controlling labor cost", "Protecting employees’ health", "Marketing new products and services"],
+        "correct": 3,
+        "explanation": "Marketing new products is typically a function of the marketing department, not HR. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 17,
+        "question": "Which of the following is most likely a line function of a human resource manager?",
+        "answers": ["Ensuring line managers are implementing HR policies", "Advising top managers how to implement EEO laws", "Representing employees’ interests to senior management", "Directing the activities of subordinates in the HR department"],
+        "correct": 3,
+        "explanation": "HR managers have a direct role in managing HR department activities, which is a line function. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 18,
+        "question": "All of the following are major areas in which HR managers assist and advise line managers EXCEPT:",
+        "answers": ["Recruiting", "Hiring", "Strategic business planning", "Compensation"],
+        "correct": 2,
+        "explanation": "Strategic business planning is primarily a responsibility of senior management rather than HR managers. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 19,
+        "question": "All of the following are examples of human resource specialists EXCEPT:",
+        "answers": ["Job Analyst", "Financial Advisor", "Compensation Manager", "Labor Relations Specialist"],
+        "correct": 1,
+        "explanation": "Financial advising is a function of the finance department, not HR. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 20,
+        "question": "Which of the following human resource management specialists calls for collecting data to write job descriptions?",
+        "answers": ["Job Analyst", "Job Training Specialist", "Compensation Manager", "EEO Coordinator"],
+        "correct": 0,
+        "explanation": "A job analyst is responsible for collecting data to develop job descriptions. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 21,
+        "question": "True or False: Setting standards like sales quotas, quality standards, or production levels is a part of the leading function of HRM?",
+        "answers": ["True", "False"],
+        "correct": 1,
+        "explanation": "Setting performance standards falls under the controlling function, not leading. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 22,
+        "question": "True or False: The planning function of management includes establishing goals and standards and developing forecasts?",
+        "answers": ["True", "False"],
+        "correct": 0,
+        "explanation": "Planning is essential for defining objectives, setting standards, and making forecasts. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 23,
+        "question": "True or False: Communicating is one of the five basic functions of the management process?",
+        "answers": ["True", "False"],
+        "correct": 1,
+        "explanation": "The five functions of management are planning, organizing, staffing, leading, and controlling. Communication is essential but not listed as one of these core functions. Reference: Final HR Questions Document, Chapter 1."
+    },
+    {
+        "number": 24,
+        "question": "True or False: Hiring the wrong person for the job, committing unfair labor practices, and having your people not doing their best are personal mistakes that hinder firms from achieving positive results?",
+        "answers": ["True", "False"],
+        "correct": 0,
+        "explanation": "These HR mistakes can negatively impact an organization's effectiveness. Reference: Final HR Questions Document, Chapter 1."
+    }
+]

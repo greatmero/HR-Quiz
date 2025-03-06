@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1 - Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .question-container {
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .question {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: #222;
+        }
+
+        .answer-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .answer {
+            display: flex;
+            align-items: center;
+            margin: 8px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .answer input {
+            margin-right: 10px;
+        }
+
+        .feedback,
+        .explanation {
+            margin-top: 15px;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 500;
+            display: none;
+        }
+
+        .feedback {
+            color: #ffffff;
+            background: #007bff;
+            padding: 10px;
+        }
+
+        .explanation {
+            background: #f8f9fa;
+            border-left: 4px solid #007bff;
+            padding: 10px;
+            color: #333;
+        }
+
+        .nav-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav-button {
+            padding: 12px 18px;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nav-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Chapter 1: Introduction to HRM</h1>
+
+        <div class="question-container" id="question-container">
+            <p class="question" id="question-text"></p>
+            <div class="answer-container" id="answer-buttons"></div>
+            <p class="feedback" id="feedback"></p>
+            <div class="explanation" id="explanation"></div>
+        </div>
+
+        <div class="nav-buttons">
+            <button class="nav-button" onclick="prevQuestion()">← Previous</button>
+            <button class="nav-button" onclick="nextQuestion()">Next →</button>
+        </div>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentQuestionIndex = 0;
+
+        async function loadQuestions() {
+            try {
+                const response = await fetch('questions.json');
+                questions = await response.json();
+                loadQuestion();
+            } catch (error) {
+                console.error("Error loading questions:", error);
+            }
+        }
+
+        function loadQuestion() {
+            const questionData = questions[currentQuestionIndex];
+            document.getElementById("question-text").innerText = `${questionData.number}. ${questionData.question}`;
+            const answerContainer = document.getElementById("answer-buttons");
+            answerContainer.innerHTML = "";
+            questionData.answers.forEach((answer, index) => {
+                const label = document.createElement("label");
+                label.classList.add("answer");
+                const input = document.createElement("input");
+                input.type = "radio";
+                input.name = "answer";
+                input.value = index;
+                input.onclick = () => checkAnswer(index);
+                label.appendChild(input);
+                label.appendChild(document.createTextNode(answer));
+                answerContainer.appendChild(label);
+            });
+            document.getElementById("feedback").style.display = "none";
+            document.getElementById("explanation").style.display = "none";
+        }
+
+        function checkAnswer(selectedIndex) {
+            const questionData = questions[currentQuestionIndex];
+            const feedback = document.getElementById("feedback");
+            const explanation = document.getElementById("explanation");
+            if (selectedIndex == questionData.correct) {
+                feedback.innerText = "✅ Correct! Well done.";
+                feedback.style.background = "#28a745";
+            } else {
+                feedback.innerText = "❌ Incorrect. Try again!";
+                feedback.style.background = "#dc3545";
+            }
+            feedback.style.display = "block";
+            explanation.innerText = questionData.explanation;
+            explanation.style.display = "block";
+        }
+
+        function nextQuestion() {
+            if (currentQuestionIndex < questions.length - 1) {
+                currentQuestionIndex++;
+                loadQuestion();
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                loadQuestion();
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", loadQuestions);
+    </script>
+</body>
+
+</html>
