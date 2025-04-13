@@ -1,0 +1,163 @@
+[
+    {
+      "number": 1,
+      "question": "Which Term refers to the holistic, Integrated and results and goal-oriented process of planning recruiting, selecting developing managing and compensating employees?",
+      "answers": ["Job Analysis", "HR alignment", "Strategic planning", "Talent management"],
+      "correct": 3,
+      "explanation": "Talent management integrates recruiting, selecting, developing, and compensating employees in an aligned way."
+    },
+    {
+      "number": 2,
+      "question": "Conner, a manager at a boat manufacturing firm, takes a talent management approach to his duties. Which of the following would Conner most likely do?",
+      "answers": [
+        "Coordinate recruitment and compensation activities",
+        "Use different competencies for recruitment and development",
+        "Rely primarily on applicant testing results for hiring decision",
+        "Manage employees based on their experience with the organization"
+      ],
+      "correct": 0,
+      "explanation": "Talent management encourages integration across HR activities like recruitment and compensation."
+    },
+    {
+      "number": 3,
+      "question": "Effective talent management focuses on developing employee competencies that align with strategic goals.",
+      "answers": ["True", "False"],
+      "correct": 0,
+      "explanation": "True. Talent management aligns people development with company goals."
+    },
+    {
+      "number": 4,
+      "question": "Which of the following terms refers to the procedures used to determine the duties associated with a job position and characteristics of the people to hire?",
+      "answers": ["Job description", "Job specification", "Job Analysis", "Job context"],
+      "correct": 2,
+      "explanation": "Job analysis identifies duties and traits needed for a job."
+    },
+    {
+      "number": 5,
+      "question": "The information resulting from a job analysis is used for writing:",
+      "answers": ["Job description", "Corporate objective", "Personnel questionnaire", "Training requirement"],
+      "correct": 0,
+      "explanation": "Job descriptions are derived from job analysis."
+    },
+    {
+      "number": 6,
+      "question": "All the following types of information are most likely to be collected by HR specialists through a job analysis EXCEPT:",
+      "answers": ["Work activities", "Human behaviors", "Performance standards", "Employee benefit options"],
+      "correct": 3,
+      "explanation": "Job analysis typically does not focus on employee benefits."
+    },
+    {
+      "number": 7,
+      "question": "A manager uses the information in the job analysis for all the following EXCEPT:",
+      "answers": ["Assessing training requirements", "Complying with FCC regulation", "Determining appropriate compensation", "Providing accurate performance appraisal"],
+      "correct": 1,
+      "explanation": "Job analysis isn't meant for legal compliance like FCC regulations."
+    },
+    {
+      "number": 8,
+      "question": "Alison, a manager, needs to determine essential duties not assigned to specific employees. What would most likely provide this information?",
+      "answers": ["Work activities", "Job context", "Job analysis", "Performance standards"],
+      "correct": 2,
+      "explanation": "Job analysis identifies unassigned or overlapping job tasks."
+    },
+    {
+      "number": 9,
+      "question": "The _______ lists a job’s specific duties as well as the skills and training needed to perform the job.",
+      "answers": ["Organization chart", "Job analysis", "Work aid", "Job description"],
+      "correct": 3,
+      "explanation": "A job description includes duties and required qualifications."
+    },
+    {
+      "number": 10,
+      "question": "Jennifer is assigned to conduct a job analysis. What should be her first step?",
+      "answers": [
+        "Deciding how the gathered information will be used",
+        "Collecting data on job activities and working conditions",
+        "Selecting representative job positions to assess",
+        "Reviewing relevant background information"
+      ],
+      "correct": 3,
+      "explanation": "Job analysis starts with reviewing background information."
+    },
+    {
+      "number": 11,
+      "question": "Which data collection technique is most useful when writing a job description for a software engineer?",
+      "answers": [
+        "Distributing a position analysis questionnaire",
+        "Interviewing employees",
+        "Analyzing organization chart",
+        "Developing job process chart"
+      ],
+      "correct": 0,
+      "explanation": "PAQ is effective for technical roles like software engineering."
+    },
+    {
+      "number": 12,
+      "question": "Which of the following is a written statement that describes the activities, responsibilities, working conditions, and supervisory responsibilities of a job?",
+      "answers": ["Job specification", "Job analysis", "Job description", "Job context"],
+      "correct": 2,
+      "explanation": "Job descriptions detail duties and responsibilities."
+    },
+    {
+      "number": 13,
+      "question": "All of the following requirements are typically addressed in job specifications EXCEPT:",
+      "answers": ["Desired personality traits", "Required education levels", "Necessary experience", "Working conditions"],
+      "correct": 3,
+      "explanation": "Working conditions are usually part of job descriptions, not specifications."
+    },
+    {
+      "number": 14,
+      "question": "Which of the following indicates the division of work and lines of authority and communication?",
+      "answers": ["Process chart", "Employee matrix", "Organization chart", "Corporate overview"],
+      "correct": 2,
+      "explanation": "Organization charts show reporting and communication lines."
+    },
+    {
+      "number": 15,
+      "question": "A _______ shows the flow of inputs and outputs from a job being analyzed.",
+      "answers": ["Organization chart", "Process chart", "Job analysis", "Job description"],
+      "correct": 1,
+      "explanation": "Process charts display work flow relationships."
+    },
+    {
+      "number": 16,
+      "question": "The primary purpose of having workers review and modify job analysis data is to:",
+      "answers": [
+        "Confirm that the information is correct and complete",
+        "Provide a legal benchmark for employer lawsuits",
+        "Encourage employees to seek additional job training",
+        "Validate the job specification list provided by HR"
+      ],
+      "correct": 0,
+      "explanation": "Reviewing ensures the data is accurate and comprehensive."
+    },
+    {
+      "number": 17,
+      "question": "Which term refers to systematically moving workers from one job to another?",
+      "answers": ["Job rotation", "Job enrichment", "Job enlargement", "Job adjustment"],
+      "correct": 0,
+      "explanation": "Job rotation exposes employees to multiple roles."
+    },
+    {
+      "number": 18,
+      "question": "Which term refers to redesigning jobs to increase opportunities for responsibility, achievement, and growth?",
+      "answers": ["Job rotation", "Job enrichment", "Job reengineering", "Job enlargement"],
+      "correct": 1,
+      "explanation": "Job enrichment focuses on meaningful responsibilities."
+    },
+    {
+      "number": 19,
+      "question": "Jack works in multiple departments weekly. This is an example of:",
+      "answers": ["Job enlargement", "Job rotation", "Job enrichment", "Job specialization"],
+      "correct": 1,
+      "explanation": "Switching roles weekly reflects job rotation."
+    },
+    {
+      "number": 20,
+      "question": "A process chart provides relevant background info during job analysis by indicating job titles and communication lines.",
+      "answers": ["True", "False"],
+      "correct": 1,
+      "explanation": "False. That’s the function of an organization chart, not a process chart."
+    }
+  ]
+  
