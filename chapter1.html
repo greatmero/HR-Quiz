@@ -102,7 +102,7 @@
     let questions = [];
 
     async function loadQuestions() {
-      const response = await fetch('chapter1_questions.json');
+      const response = await fetch('questions.json');
       questions = await response.json();
       showQuestion();
     }
