@@ -1,0 +1,120 @@
+[
+    {
+      "number": 1,
+      "question": "Strategic human resource management is primarily concerned with aligning HR policies with:",
+      "answers": [
+        "Employee interests",
+        "Government regulations",
+        "Organizational goals",
+        "Union agreements"
+      ],
+      "correct": 2,
+      "explanation": "Strategic HRM ensures that HR strategies are aligned with the organization’s overall business objectives. Reference: Chapter 3, Course Material."
+    },
+    {
+      "number": 2,
+      "question": "True or False: HR strategies should be developed independently from corporate strategies.",
+      "answers": ["True", "False"],
+      "correct": 1,
+      "explanation": "HR strategies should support and align with corporate strategies to ensure cohesive organizational direction. Reference: Chapter 3, Final HR Questions."
+    },
+    {
+      "number": 3,
+      "question": "Which of the following best defines a mission statement?",
+      "answers": [
+        "A description of the organization’s long-term goals",
+        "A document listing all employees",
+        "A declaration of the company’s purpose and values",
+        "A report on past financial performance"
+      ],
+      "correct": 2,
+      "explanation": "A mission statement outlines the company’s purpose, values, and the scope of its operations. Reference: Chapter 3, HRM Textbook."
+    },
+    {
+      "number": 4,
+      "question": "Which of the following tools is commonly used in strategic planning to evaluate strengths, weaknesses, opportunities, and threats?",
+      "answers": [
+        "Job Analysis",
+        "SWOT Analysis",
+        "PESTEL Analysis",
+        "Performance Appraisal"
+      ],
+      "correct": 1,
+      "explanation": "SWOT analysis is a key tool in strategic planning for assessing internal and external factors. Reference: Chapter 3, Book."
+    },
+    {
+      "number": 5,
+      "question": "True or False: Environmental scanning helps HR managers identify external opportunities and threats.",
+      "answers": ["True", "False"],
+      "correct": 0,
+      "explanation": "Environmental scanning analyzes external conditions that could affect workforce strategy. Reference: Chapter 3, Course Notes."
+    },
+    {
+      "number": 6,
+      "question": "Strategic planning primarily benefits a firm’s managers by?",
+      "answers": [
+        "Creating a hierarchy of decision makers",
+        "Establishing goals to be accomplished",
+        "Allowing employees to provide inputs",
+        "Clarifying the supply chain networks"
+      ],
+      "correct": 1,
+      "explanation": "Strategic planning helps managers by clearly defining the goals that need to be achieved. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 7,
+      "question": "Since most well-run firms utilize a hierarchy of goals to guide major decisions, what is especially important to prevent departments from working at cross-purpose?",
+      "answers": [
+        "Strategic planning",
+        "Financial auditing",
+        "Employee testing",
+        "Employee benchmarking"
+      ],
+      "correct": 0,
+      "explanation": "Strategic planning ensures that all departments align with overarching company goals. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 8,
+      "question": "What is the first step in the strategic planning process?",
+      "answers": [
+        "Evaluating the possible alternatives",
+        "Implementing a course of actions",
+        "Setting an objective",
+        "Comparing options"
+      ],
+      "correct": 2,
+      "explanation": "Strategic planning begins with setting clear objectives for the organization. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 9,
+      "question": "Which of the following is the most significant difference between managerial planning and the basic planning process?",
+      "answers": [
+        "Evaluation of alternative methods",
+        "Establishment of clear objectives",
+        "Assessment of long-term goals",
+        "Interference from corporate hierarchies"
+      ],
+      "correct": 3,
+      "explanation": "Managerial planning can often be affected by higher-level directives in corporate hierarchies. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 10,
+      "question": "Which term indicates the course of action for getting from where you are to where you want to go?",
+      "answers": ["Goal", "Plan", "Proposition", "Assessment"],
+      "correct": 1,
+      "explanation": "A plan outlines the course of action for achieving goals. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 11,
+      "question": "All of the following are steps involved in strategic management process EXCEPT:",
+      "answers": [
+        "Evaluating the firm’s internal and external situation",
+        "Defining the business and developing a mission",
+        "Crafting a course of action",
+        "Offshoring low-skills job"
+      ],
+      "correct": 3,
+      "explanation": "Offshoring is not part of the core strategic management planning process. Reference: Final HR Questions, Chapter 3."
+    }
+  ]
+  
