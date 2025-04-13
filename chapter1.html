@@ -1,166 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chapter 1 - Introduction to HRM</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chapter 1: Introduction to HRM</title>
+  <link rel="stylesheet" href="styles.css" />
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background: #f4f7fa;
-      color: #333;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      color: #fff;
       margin: 0;
       padding: 0;
     }
+
     .container {
-      max-width: 800px;
-      margin: auto;
+      max-width: 900px;
+      margin: 40px auto;
       padding: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
     }
+
     h1 {
-      text-align: center;
-      color: #2a5298;
-    }
-    .question-container {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    .question {
-      font-size: 26px;
-      margin-bottom: 15px;
-    }
-    .answer-container label {
-      display: block;
-      font-size: 20px;
+      font-size: 28px;
       margin-bottom: 10px;
     }
-    .feedback {
+
+    .question {
+      font-size: 26px;
       font-weight: bold;
-      margin-top: 10px;
-      font-size: 18px;
+      margin: 20px 0 10px;
     }
-    .explanation {
-      margin-top: 10px;
-      font-style: italic;
-      font-size: 18px;
-    }
-    .nav-buttons {
-      display: flex;
-      justify-content: space-between;
-      margin-top: 20px;
-    }
-    .nav-button {
-      background: #2a5298;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      font-size: 16px;
+
+    .options label {
+      display: block;
+      text-align: left;
+      margin: 10px 0;
+      padding: 10px;
+      background-color: #ffffff10;
       border-radius: 6px;
       cursor: pointer;
-      transition: background 0.3s;
+      font-size: 20px;
     }
-    .nav-button:hover {
-      background: #1e3c72;
+
+    .options input {
+      margin-right: 10px;
     }
-    .home-button {
-      display: inline-block;
+
+    .options label:hover {
+      background-color: #ffffff20;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
       margin-top: 30px;
-      padding: 10px 20px;
-      background: #2a5298;
-      color: white;
+    }
+
+    .nav-button, .home-button {
+      background-color: #64b5f6;
+      color: #fff;
+      padding: 10px 18px;
       text-decoration: none;
       border-radius: 6px;
       font-weight: bold;
     }
-    .home-button:hover {
-      background: #1e3c72;
+
+    .nav-button:hover, .home-button:hover {
+      background-color: #2196f3;
+    }
+
+    .explanation {
+      margin-top: 15px;
+      background-color: #ffffff10;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 18px;
+      color: #aee1ff;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Chapter 1: Introduction to HRM</h1>
-    <div class="question-container">
-      <p class="question" id="question-text"></p>
-      <div class="answer-container" id="answer-buttons"></div>
-      <p class="feedback" id="feedback"></p>
-      <div class="explanation" id="explanation"></div>
+    <div id="quiz-container"></div>
+
+    <div class="navigation">
+      <a id="prev" class="nav-button" href="#">Previous</a>
+      <a id="next" class="nav-button" href="#">Next</a>
     </div>
-    <div class="nav-buttons">
-      <button class="nav-button" onclick="prevQuestion()">← Previous</button>
-      <button class="nav-button" onclick="nextQuestion()">Next →</button>
+    <div style="margin-top: 20px; text-align: center;">
+      <a href="index.html" class="home-button">Back to Home</a>
     </div>
-    <a href="index.html" class="home-button">Back to Home</a>
-
-    <script>
-      let questions = [];
-      let currentQuestionIndex = 0;
-
-      async function loadQuestions() {
-        const response = await fetch('questions.json');
-        questions = await response.json();
-        loadQuestion();
-      }
-
-      function loadQuestion() {
-        const questionData = questions[currentQuestionIndex];
-        document.getElementById("question-text").innerText = `${questionData.number}. ${questionData.question}`;
-        const answerContainer = document.getElementById("answer-buttons");
-        answerContainer.innerHTML = "";
-
-        questionData.answers.forEach((answer, index) => {
-          const label = document.createElement("label");
-          const input = document.createElement("input");
-          input.type = "radio";
-          input.name = "answer";
-          input.value = index;
-          input.onclick = () => checkAnswer(index);
-          label.appendChild(input);
-          label.appendChild(document.createTextNode(answer));
-          answerContainer.appendChild(label);
-        });
-
-        document.getElementById("feedback").style.display = "none";
-        document.getElementById("explanation").style.display = "none";
-      }
-
-      function checkAnswer(selectedIndex) {
-        const questionData = questions[currentQuestionIndex];
-        const feedback = document.getElementById("feedback");
-        const explanation = document.getElementById("explanation");
-
-        if (selectedIndex == questionData.correct) {
-          feedback.innerText = "✅ Correct!";
-          feedback.style.color = "green";
-        } else {
-          feedback.innerText = "❌ Incorrect!";
-          feedback.style.color = "red";
-        }
-
-        feedback.style.display = "block";
-        explanation.innerText = questionData.explanation;
-        explanation.style.display = "block";
-      }
-
-      function nextQuestion() {
-        if (currentQuestionIndex < questions.length - 1) {
-          currentQuestionIndex++;
-          loadQuestion();
-        }
-      }
-
-      function prevQuestion() {
-        if (currentQuestionIndex > 0) {
-          currentQuestionIndex--;
-          loadQuestion();
-        }
-      }
-
-      document.addEventListener("DOMContentLoaded", loadQuestions);
-    </script>
   </div>
+
+  <script>
+    let currentQuestionIndex = 0;
+    let questions = [];
+
+    async function loadQuestions() {
+      const response = await fetch('chapter1_questions.json');
+      questions = await response.json();
+      showQuestion();
+    }
+
+    function showQuestion() {
+      const container = document.getElementById('quiz-container');
+      const questionData = questions[currentQuestionIndex];
+
+      container.innerHTML = `
+        <div class="question">${currentQuestionIndex + 1}. ${questionData.question}</div>
+        <div class="options">
+          ${questionData.answers.map((answer, index) => `
+            <label>
+              <input type="radio" name="question" value="${index}" onclick="checkAnswer(${index})" />
+              ${answer}
+            </label>
+          `).join('')}
+        </div>
+        <div id="feedback" class="feedback"></div>
+        <div class="explanation" id="explanation" style="display:none;"></div>
+      `;
+    }
+
+    function checkAnswer(selectedIndex) {
+      const questionData = questions[currentQuestionIndex];
+      const explanation = document.getElementById("explanation");
+      const feedback = document.getElementById("feedback");
+
+      if (selectedIndex === questionData.correct) {
+        feedback.innerHTML = "✅ Correct!";
+        feedback.style.color = "lightgreen";
+      } else {
+        feedback.innerHTML = "❌ Incorrect!";
+        feedback.style.color = "#ff7676";
+      }
+
+      explanation.style.display = "block";
+      explanation.innerHTML = "📘 " + questionData.explanation;
+    }
+
+    document.getElementById("next").addEventListener("click", () => {
+      if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex++;
+        showQuestion();
+      }
+    });
+
+    document.getElementById("prev").addEventListener("click", () => {
+      if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        showQuestion();
+      }
+    });
+
+    loadQuestions();
+  </script>
 </body>
 </html>
