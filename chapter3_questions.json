@@ -1,56 +1,6 @@
 [
     {
       "number": 1,
-      "question": "Strategic human resource management is primarily concerned with aligning HR policies with:",
-      "answers": [
-        "Employee interests",
-        "Government regulations",
-        "Organizational goals",
-        "Union agreements"
-      ],
-      "correct": 2,
-      "explanation": "Strategic HRM ensures that HR strategies are aligned with the organization’s overall business objectives. Reference: Chapter 3, Course Material."
-    },
-    {
-      "number": 2,
-      "question": "True or False: HR strategies should be developed independently from corporate strategies.",
-      "answers": ["True", "False"],
-      "correct": 1,
-      "explanation": "HR strategies should support and align with corporate strategies to ensure cohesive organizational direction. Reference: Chapter 3, Final HR Questions."
-    },
-    {
-      "number": 3,
-      "question": "Which of the following best defines a mission statement?",
-      "answers": [
-        "A description of the organization’s long-term goals",
-        "A document listing all employees",
-        "A declaration of the company’s purpose and values",
-        "A report on past financial performance"
-      ],
-      "correct": 2,
-      "explanation": "A mission statement outlines the company’s purpose, values, and the scope of its operations. Reference: Chapter 3, HRM Textbook."
-    },
-    {
-      "number": 4,
-      "question": "Which of the following tools is commonly used in strategic planning to evaluate strengths, weaknesses, opportunities, and threats?",
-      "answers": [
-        "Job Analysis",
-        "SWOT Analysis",
-        "PESTEL Analysis",
-        "Performance Appraisal"
-      ],
-      "correct": 1,
-      "explanation": "SWOT analysis is a key tool in strategic planning for assessing internal and external factors. Reference: Chapter 3, Book."
-    },
-    {
-      "number": 5,
-      "question": "True or False: Environmental scanning helps HR managers identify external opportunities and threats.",
-      "answers": ["True", "False"],
-      "correct": 0,
-      "explanation": "Environmental scanning analyzes external conditions that could affect workforce strategy. Reference: Chapter 3, Course Notes."
-    },
-    {
-      "number": 6,
       "question": "Strategic planning primarily benefits a firm’s managers by?",
       "answers": [
         "Creating a hierarchy of decision makers",
@@ -62,7 +12,7 @@
       "explanation": "Strategic planning helps managers by clearly defining the goals that need to be achieved. Reference: Final HR Questions, Chapter 3."
     },
     {
-      "number": 7,
+      "number": 2,
       "question": "Since most well-run firms utilize a hierarchy of goals to guide major decisions, what is especially important to prevent departments from working at cross-purpose?",
       "answers": [
         "Strategic planning",
@@ -74,11 +24,11 @@
       "explanation": "Strategic planning ensures that all departments align with overarching company goals. Reference: Final HR Questions, Chapter 3."
     },
     {
-      "number": 8,
-      "question": "What is the first step in the strategic planning process?",
+      "number": 3,
+      "question": "What is the first step in strategic planning process?",
       "answers": [
         "Evaluating the possible alternatives",
-        "Implementing a course of actions",
+        "Implementing a course of action",
         "Setting an objective",
         "Comparing options"
       ],
@@ -86,7 +36,7 @@
       "explanation": "Strategic planning begins with setting clear objectives for the organization. Reference: Final HR Questions, Chapter 3."
     },
     {
-      "number": 9,
+      "number": 4,
       "question": "Which of the following is the most significant difference between managerial planning and the basic planning process?",
       "answers": [
         "Evaluation of alternative methods",
@@ -98,14 +48,14 @@
       "explanation": "Managerial planning can often be affected by higher-level directives in corporate hierarchies. Reference: Final HR Questions, Chapter 3."
     },
     {
-      "number": 10,
+      "number": 5,
       "question": "Which term indicates the course of action for getting from where you are to where you want to go?",
       "answers": ["Goal", "Plan", "Proposition", "Assessment"],
       "correct": 1,
       "explanation": "A plan outlines the course of action for achieving goals. Reference: Final HR Questions, Chapter 3."
     },
     {
-      "number": 11,
+      "number": 6,
       "question": "All of the following are steps involved in strategic management process EXCEPT:",
       "answers": [
         "Evaluating the firm’s internal and external situation",
@@ -115,6 +65,46 @@
       ],
       "correct": 3,
       "explanation": "Offshoring is not part of the core strategic management planning process. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 7,
+      "question": "The primary tool used by managers who are performing external and internal audits as part of the strategic management process is the...",
+      "answers": ["BCG matrix", "QSPM matrix", "SWOT chart", "EPS/EPID table"],
+      "correct": 2,
+      "explanation": "SWOT analysis is used to evaluate a company’s internal strengths and weaknesses and external opportunities and threats. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 8,
+      "question": "A diversification corporate strategy implies that a firm will...",
+      "answers": [
+        "Expand by adding a new product line",
+        "Reduce the company’s size",
+        "Introduce its own raw materials",
+        "Focus on one product"
+      ],
+      "correct": 0,
+      "explanation": "Diversification refers to expansion into new products or markets. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 9,
+      "question": "A company’s ______ strategy identifies how to build and strengthen the business’s long-term competitive position in the marketplace.",
+      "answers": ["Functional", "Corporate level", "Horizontal", "Competitive"],
+      "correct": 1,
+      "explanation": "Corporate-level strategy guides long-term positioning in the market. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 10,
+      "question": "Which of the following refers to any factors that allow a company to differentiate its products or services from those of competitors?",
+      "answers": ["Functional strategy", "Competitive advantage", "Distinctive competence", "Related diversification"],
+      "correct": 1,
+      "explanation": "Competitive advantage gives the firm an edge in the marketplace. Reference: Final HR Questions, Chapter 3."
+    },
+    {
+      "number": 11,
+      "question": "Companies like Ferrari are known as ________ because they carve out a market niche and compete by providing a product that customers can attain in no other way.",
+      "answers": ["Cost leader", "Focuser", "Visionaries", "Market leaders"],
+      "correct": 1,
+      "explanation": "Focusers target niche markets with specialized offerings. Reference: Final HR Questions, Chapter 3."
     }
   ]
   
