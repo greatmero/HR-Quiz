@@ -1,97 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HR Course - Interactive Questions</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="firebase-config.js" defer></script>
-    <script src="auth.js" defer></script>
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            text-align: center;
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            margin: 0;
-            padding: 0;
-            color: white;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            backdrop-filter: blur(10px);
-        }
-        h1 {
-            font-size: 28px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .chapters {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-            padding: 20px;
-        }
-        .chapter-button {
-            display: block;
-            padding: 12px;
-            background: #64b5f6;
-            color: #ffffff;
-            text-align: center;
-            font-weight: bold;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-        .chapter-button:hover {
-            background: #2196f3;
-        }
-        .button {
-            display: inline-block;
-            padding: 12px 20px;
-            background: #64b5f6;
-            color: #ffffff;
-            border-radius: 6px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            margin: 10px;
-        }
-        .button:hover {
-            background: #2196f3;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HR Course - Interactive Questions</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(10px);
+    }
+    h1 {
+      font-size: 28px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .chapters {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .chapter-button {
+      display: block;
+      padding: 12px;
+      background: #64b5f6;
+      color: #ffffff;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+    .chapter-button:hover {
+      background: #2196f3;
+    }
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #64b5f6;
+      color: #ffffff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      margin: 10px;
+    }
+    .button:hover {
+      background: #2196f3;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Human Resource Management Course</h1>
-        <h2>Chapters</h2>
-        <div class="chapters">
-            <a href="chapter1.html" class="chapter-button">Chapter 1: Introduction to HRM</a>
-            <a href="chapter2.html" class="chapter-button" style="display: none;">Chapter 2: Equal Opportunity and the Law</a>
-            <a href="chapter3.html" class="chapter-button" style="display: none;">Chapter 3: HRM Strategy and Analysis</a>
-            <a href="chapter4.html" class="chapter-button" style="display: none;">Chapter 4: Job Analysis and Talent Management</a>
-            <a href="chapter5.html" class="chapter-button" style="display: none;">Chapter 5: Personnel Planning and Recruiting</a>
-            <a href="chapter6.html" class="chapter-button" style="display: none;">Chapter 6: Employee Testing and Selection</a>
-            <a href="chapter7.html" class="chapter-button" style="display: none;">Chapter 7: Interviewing Candidates</a>
-            <a href="chapter8.html" class="chapter-button" style="display: none;">Chapter 8: Training and Developing Employees</a>
-            <a href="chapter9.html" class="chapter-button" style="display: none;">Chapter 9: Performance Management and Appraisal</a>
-            <a href="chapter10.html" class="chapter-button" style="display: none;">Chapter 10: Managing Careers and Retention</a>
-            <a href="chapter11.html" class="chapter-button" style="display: none;">Chapter 11: Establishing Strategic Pay Plans</a>
-            <a href="chapter12.html" class="chapter-button" style="display: none;">Chapter 12: Pay for Performance and Financial Incentives</a>
-            <a href="chapter13.html" class="chapter-button" style="display: none;">Chapter 13: Benefits and Services</a>
-            <a href="chapter14.html" class="chapter-button" style="display: none;">Chapter 14: Building Positive Employee Relations</a>
-            <a href="chapter15.html" class="chapter-button" style="display: none;">Chapter 15: Labor Relations and Collective Bargaining</a>
-            <a href="chapter16.html" class="chapter-button" style="display: none;">Chapter 16: Safety, Health, and Risk Management</a>
-            <a href="chapter17.html" class="chapter-button" style="display: none;">Chapter 17: Managing Global Human Resources</a>
-            <a href="chapter18.html" class="chapter-button" style="display: none;">Chapter 18: Managing HR in Small and Entrepreneurial Firms</a>
-        </div>
-        <a href="login.html" class="button">Login</a>
-        <a href="#" class="button">Start Learning</a>
+  <div class="container">
+    <h1>Human Resource Management Course</h1>
+    <h2>Chapters</h2>
+    <div class="chapters">
+      <a href="chapter1.html" class="chapter-button">Chapter 1: Introduction to HRM</a>
+      <a href="chapter2.html" class="chapter-button" style="display: none;">Chapter 2: Equal Opportunity and the Law</a>
+      <a href="chapter3.html" class="chapter-button">Chapter 3: HRM Strategy and Analysis</a>
+      <a href="chapter4.html" class="chapter-button" style="display: none;">Chapter 4</a>
+      <a href="chapter5.html" class="chapter-button" style="display: none;">Chapter 5</a>
+      <a href="chapter6.html" class="chapter-button" style="display: none;">Chapter 6</a>
+      <a href="chapter7.html" class="chapter-button" style="display: none;">Chapter 7</a>
+      <a href="chapter8.html" class="chapter-button" style="display: none;">Chapter 8</a>
+      <a href="chapter9.html" class="chapter-button" style="display: none;">Chapter 9</a>
+      <a href="chapter10.html" class="chapter-button" style="display: none;">Chapter 10</a>
+      <a href="chapter11.html" class="chapter-button" style="display: none;">Chapter 11</a>
+      <a href="chapter12.html" class="chapter-button" style="display: none;">Chapter 12</a>
+      <a href="chapter13.html" class="chapter-button" style="display: none;">Chapter 13</a>
+      <a href="chapter14.html" class="chapter-button" style="display: none;">Chapter 14</a>
+      <a href="chapter15.html" class="chapter-button" style="display: none;">Chapter 15</a>
+      <a href="chapter16.html" class="chapter-button" style="display: none;">Chapter 16</a>
+      <a href="chapter17.html" class="chapter-button" style="display: none;">Chapter 17</a>
+      <a href="chapter18.html" class="chapter-button" style="display: none;">Chapter 18</a>
     </div>
+    <a href="login.html" class="button">Login</a>
+    <a href="#" class="button">Start Learning</a>
+  </div>
 </body>
 </html>
