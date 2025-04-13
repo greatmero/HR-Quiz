@@ -8,8 +8,8 @@
   <style>
     body {
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #1e3c72, #2a5298);
-      color: #e0e0e0;
+      background-color: #f5f7fa;
+      color: #000;
       margin: 0;
       padding: 0;
     }
@@ -17,22 +17,21 @@
     .container {
       max-width: 900px;
       margin: 40px auto;
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.07);
+      padding: 20px 30px;
+      background-color: #ffffff;
       border-radius: 12px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
-      backdrop-filter: blur(10px);
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     }
 
     h1 {
       font-size: 28px;
       margin-bottom: 10px;
-      color: #fff;
+      color: #003366;
     }
 
     .question {
-      font-size: 26px;
-      font-weight: bold;
+      font-size: 24px;
+      font-weight: 600;
       margin: 20px 0 10px;
     }
 
@@ -41,11 +40,12 @@
       text-align: left;
       margin: 10px 0;
       padding: 12px;
-      background-color: #2f3d5e;
+      background-color: #f0f4f8;
       border-radius: 6px;
       cursor: pointer;
-      font-size: 20px;
+      font-size: 18px;
       transition: background 0.3s;
+      color: #000;
     }
 
     .options input {
@@ -53,7 +53,7 @@
     }
 
     .options label:hover {
-      background-color: #3e5c8c;
+      background-color: #d9e8f3;
     }
 
     .navigation {
@@ -63,25 +63,27 @@
     }
 
     .nav-button, .home-button {
-      background-color: #64b5f6;
+      background-color: #1e88e5;
       color: #fff;
       padding: 10px 18px;
       text-decoration: none;
       border-radius: 6px;
       font-weight: bold;
+      border: none;
+      cursor: pointer;
     }
 
     .nav-button:hover, .home-button:hover {
-      background-color: #2196f3;
+      background-color: #1565c0;
     }
 
     .explanation {
       margin-top: 15px;
-      background-color: #1d2b45;
+      background-color: #e8f0fe;
       padding: 12px;
       border-radius: 6px;
-      font-size: 18px;
-      color: #aee1ff;
+      font-size: 16px;
+      color: #333;
     }
 
     .feedback {
@@ -97,8 +99,8 @@
     <div id="quiz-container"></div>
 
     <div class="navigation">
-      <a id="prev" class="nav-button" href="#">Previous</a>
-      <a id="next" class="nav-button" href="#">Next</a>
+      <button id="prev" class="nav-button">Previous</button>
+      <button id="next" class="nav-button">Next</button>
     </div>
     <div style="margin-top: 20px; text-align: center;">
       <a href="index.html" class="home-button">Back to Home</a>
@@ -141,10 +143,10 @@
 
       if (selectedIndex === questionData.correct) {
         feedback.innerHTML = "✅ Correct!";
-        feedback.style.color = "lightgreen";
+        feedback.style.color = "green";
       } else {
         feedback.innerHTML = "❌ Incorrect!";
-        feedback.style.color = "#ff7676";
+        feedback.style.color = "red";
       }
 
       explanation.style.display = "block";
