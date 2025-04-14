@@ -1,0 +1,143 @@
+[
+    {
+      "number": 1,
+      "question": "Which of the following terms refers to the process of evaluating an employee’s current and/or past performance relative to his or her performance standards",
+      "answers": ["Employee selection", "Performance appraisal", "Employee orientation", "Organizational development"],
+      "correct": 1,
+      "explanation": "Performance appraisal involves measuring employee performance against set standards."
+    },
+    {
+      "number": 2,
+      "question": "The primary purpose of providing employees with feedback during a performance appraisal is to motivate employees to……………?",
+      "answers": ["Apply for managerial positions", "Remove any performance deficiencies", "Revise their performance standards", "Enroll in work related training programs"],
+      "correct": 1,
+      "explanation": "Feedback helps employees understand gaps and improve performance."
+    },
+    {
+      "number": 3,
+      "question": "Which of the following is not one of the recommended guidelines for setting effective employee goals?",
+      "answers": ["Creating specific goals", "Assigning measurable goals", "Administrating consequences for failure to meet goals", "Encouraging employees to participate in setting goals"],
+      "correct": 2,
+      "explanation": "Effective goal setting avoids punitive approaches and focuses on collaboration."
+    },
+    {
+      "number": 4,
+      "question": "Smart goals are best described as",
+      "answers": ["Specific measurable attainable relevant and timely", "A straightforward meaningful accessible real and tasted", "Strategic moderate achievable relevant and timely", "Supportive meaningful attainable real and timely"],
+      "correct": 0,
+      "explanation": "SMART goals provide clarity and measurable targets."
+    },
+    {
+      "number": 5,
+      "question": "All of the following are reasons for appraising an employee’s performance except",
+      "answers": ["Correcting any work related deficiencies", "Creating an organizational strategy map", "Determining appropriate salary and bonuses", "Making a decision about promotions"],
+      "correct": 1,
+      "explanation": "Strategy maps are not the primary purpose of individual appraisals."
+    },
+    {
+      "number": 6,
+      "question": "In most organizations who is primarily responsible for appraising an employee's performance?",
+      "answers": ["Employee direct supervisor", "Company appraiser", "Human resource manager", "Employee’s subordinates"],
+      "correct": 0,
+      "explanation": "Direct supervisors are best positioned to evaluate performance."
+    },
+    {
+      "number": 7,
+      "question": "Which of the following is most likely not a role played by the HR department in the performance appraisal process?",
+      "answers": ["Conducting appraisals of employees", "Monitoring the appraisal system's effectiveness", "Providing performance appraisal training to supervisors", "Ensuring the appraisal system's compliance with EEO laws"],
+      "correct": 0,
+      "explanation": "Line managers typically conduct the appraisals, not HR."
+    },
+    {
+      "number": 8,
+      "question": "What is the first step of any performance appraisal?",
+      "answers": ["Giving feedback", "Setting work standard", "Making plans to provide trainings", "Assessing the employee performance"],
+      "correct": 1,
+      "explanation": "Performance appraisal begins with establishing performance standards."
+    },
+    {
+      "number": 9,
+      "question": "………….. Means making sure that the manager and the subordinate agree on the subordinate’s job standards and the appraisal method to be used",
+      "answers": ["Smart goals", "Organizational development", "Defining the job", "Forced distribution"],
+      "correct": 2,
+      "explanation": "Defining the job clarifies performance expectations."
+    },
+    {
+      "number": 10,
+      "question": "Who is in the best position to observe and evaluate an employee's performance for the purpose of a performance appraisal?",
+      "answers": ["Customers", "Rating committees", "Top management", "Immediate supervisor"],
+      "correct": 3,
+      "explanation": "Supervisors directly monitor day-to-day employee performance."
+    },
+    {
+      "number": 11,
+      "question": "Employee performance appraisals are conducted by all of the following except",
+      "answers": ["Peers", "Competitors", "Subordinates", "Rating committees"],
+      "correct": 1,
+      "explanation": "Competitors do not conduct internal appraisals."
+    },
+    {
+      "number": 12,
+      "question": "What usually occurs when employees rate themselves for performance appraisal?",
+      "answers": ["Ratings are reliable but invalid", "Ratings are subject to Halo effect", "Ratings are higher than when provided by supervisors", "Ratings are about the same as when determined by peers"],
+      "correct": 2,
+      "explanation": "Self-ratings tend to be more generous than external ratings."
+    },
+    {
+      "number": 13,
+      "question": "Which of the following terms refers to a performance appraisal based on surveys from peers, supervisors, subordinates, and customers?",
+      "answers": ["360-degree feedback", "Team appraisal", "Upward feedback", "Rating committee"],
+      "correct": 0,
+      "explanation": "360-degree feedback incorporates multiple perspectives."
+    },
+    {
+      "number": 14,
+      "question": "Performance appraisal is based on the assumption that an employee understood what his or her performance standards were prior to the appraisal",
+      "answers": ["True", "False"],
+      "correct": 0,
+      "explanation": "Clear expectations are fundamental for fair appraisal."
+    },
+    {
+      "number": 15,
+      "question": "Supervisors should provide employees with feedback, development, and incentives necessary to help employees eliminate performance deficiencies or to continue to perform well",
+      "answers": ["True", "False"],
+      "correct": 0,
+      "explanation": "Appraisal feedback should be actionable and motivating."
+    },
+    {
+      "number": 16,
+      "question": "The third step of the performance appraisal process is to assess the employee’s actual performance relative to work standards",
+      "answers": ["True", "False"],
+      "correct": 1,
+      "explanation": "The third step is providing feedback, not assessment."
+    },
+    {
+      "number": 17,
+      "question": "Which of the following is the easiest and the most popular technique for appraising employee performance?",
+      "answers": ["Alternative ranking", "Graphic rating scale", "Forced distribution", "Consistent sum rating scale"],
+      "correct": 1,
+      "explanation": "The graphic rating scale is widely used and easy to apply."
+    },
+    {
+      "number": 18,
+      "question": "Which performance appraisal technique lists traits and a range of performance values for each trait?",
+      "answers": ["Behaviourally anchored rating scale", "Graphic rating scale", "Forced distribution", "Critical incident"],
+      "correct": 1,
+      "explanation": "Graphic scales rate traits on numerical ranges."
+    },
+    {
+      "number": 19,
+      "question": "Which performance appraisal tool requires supervisors to categorize employees from best to worst on various traits?",
+      "answers": ["Graphic rating scale", "Critical incident method", "Alternation ranking method", "Electronic performance monitoring"],
+      "correct": 2,
+      "explanation": "Alternation ranking lists employees from top to bottom."
+    },
+    {
+      "number": 20,
+      "question": "Which performance appraisal tool is being used when a supervisor places predetermined percentages of appraisees into various performance categories?",
+      "answers": ["Behaviourally anchored rating scales", "Graphic ranking scale", "Alternation ranking", "Forced distribution"],
+      "correct": 3,
+      "explanation": "Forced distribution spreads employees across rating bands."
+    }
+  ]
+  

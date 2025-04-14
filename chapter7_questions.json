@@ -1,0 +1,98 @@
+[
+    {
+      "number": 1,
+      "question": "Which of the following is the most commonly used selection tool?",
+      "answers": ["Telephone references", "Reference letter", "Interview", "Personality test"],
+      "correct": 2,
+      "explanation": "Interviews are the most widely used method in the selection process."
+    },
+    {
+      "number": 2,
+      "question": "Which of the following refers to procedures designed to predict future job performance based on an applicant’s oral responses to oral inquiries?",
+      "answers": ["Work sample simulation", "Selection interview", "References check", "Arbitration"],
+      "correct": 1,
+      "explanation": "Selection interviews predict performance based on verbal Q&A."
+    },
+    {
+      "number": 3,
+      "question": "According to the text, selection interviews are classified by all of the following factors EXCEPT:",
+      "answers": ["Administration", "Structure", "Content", "Length"],
+      "correct": 3,
+      "explanation": "Length is not a formal classification factor of interviews."
+    },
+    {
+      "number": 4,
+      "question": "What is the type of interview which lists the questions ahead of time?",
+      "answers": ["Structured interview", "Unstructured interview", "Situational interview", "Behavioral interview"],
+      "correct": 0,
+      "explanation": "Structured interviews use pre-planned, job-related questions."
+    },
+    {
+      "number": 5,
+      "question": "Which of the following is another term for an unstructured interview?",
+      "answers": ["Directive", "Nondirective", "Unformatted", "Administrative"],
+      "correct": 1,
+      "explanation": "Unstructured interviews are also called nondirective."
+    },
+    {
+      "number": 6,
+      "question": "Which of the following is an advantage of using a nondirective format when interviewing job candidates?",
+      "answers": [
+        "Allows candidates to ask questions",
+        "Uses a manager's time more effectively",
+        "Pursues points of interest as they develop",
+        "Scores and compares candidates with consistency"
+      ],
+      "correct": 2,
+      "explanation": "Nondirective interviews allow exploration of emerging candidate responses."
+    },
+    {
+      "number": 7,
+      "question": "Which of the following is the primary disadvantage of using structured interviews during the employee selection process?",
+      "answers": [
+        "Higher potential for bias",
+        "Limited validity and reliability",
+        "Inconsistency across candidates",
+        "Reduced opportunities for asking follow-up questions"
+      ],
+      "correct": 3,
+      "explanation": "Structured formats may limit spontaneity and follow-ups."
+    },
+    {
+      "number": 8,
+      "question": "How do situational interviews differ from behavioral interviews?",
+      "answers": [
+        "Situational interviews are based on an applicant's response to actual past situations",
+        "Situational interviews are based on how an applicant might behave in hypothetical situations",
+        "Situational interviews ask applicants job-related questions to assess their knowledge and skills",
+        "Behavioral interviews ask applicants to describe their emotions in different hypothetical situations"
+      ],
+      "correct": 1,
+      "explanation": "Situational interviews focus on hypothetical future behavior, while behavioral interviews focus on past behavior."
+    },
+    {
+      "number": 9,
+      "question": "Which of the following statements is representative of what might be asked in a behavioral interview?",
+      "answers": [
+        "Consider a time when you were faced with an angry client. What did you do to turn the situation around?",
+        "We are concerned with employee pilferage. As a manager, how would you go about discouraging this behavior?",
+        "Employees in this division are frequently under pressure. How do you think you'd handle the stress?",
+        "What would you do if a subordinate threatened to sue the company for discrimination?"
+      ],
+      "correct": 0,
+      "explanation": "Behavioral interviews ask about past actions in real situations."
+    },
+    {
+      "number": 10,
+      "question": "In a stress interview, the interviewer __________.",
+      "answers": [
+        "Provides an applicant with a task to complete in a set amount of time",
+        "Tries to make the applicant uncomfortable in order to spot sensitivity",
+        "Gives a word problem to see how the candidate thinks under pressure",
+        "Describes a hypothetical situation to assess how the applicant responds"
+      ],
+      "correct": 1,
+      "explanation": "Stress interviews involve deliberate pressure to evaluate emotional resilience."
+    }
+  ]
+  
