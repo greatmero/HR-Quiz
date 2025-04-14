@@ -1,0 +1,173 @@
+[
+    {
+      "number": 1,
+      "question": "What is the first step in the recruitment and selection process?",
+      "answers": [
+        "Performing initial screening interviews",
+        "Building a pool of candidates",
+        "Performing candidate background checks",
+        "Deciding what positions to fill"
+      ],
+      "correct": 3,
+      "explanation": "Recruitment begins with identifying the roles and workforce needs to be filled."
+    },
+    {
+      "number": 2,
+      "question": "Which of the following terms refers to the background investigations, tests and physical exams that firms use to identify viable candidates for a job?",
+      "answers": [
+        "Selection tools",
+        "Job analysis methods",
+        "Personnel techniques",
+        "Forecasting tools"
+      ],
+      "correct": 0,
+      "explanation": "Selection tools help filter suitable candidates through testing and evaluation."
+    },
+    {
+      "number": 3,
+      "question": "_________ is the process of deciding what positions the firm will have to fill and how to fill them.",
+      "answers": [
+        "Recruitment",
+        "Selection",
+        "Job analysis",
+        "Workforce planning"
+      ],
+      "correct": 3,
+      "explanation": "Workforce planning involves assessing future employment needs."
+    },
+    {
+      "number": 4,
+      "question": "Marcus, an HR manager for Samsung, must decide what positions the firm should fill in the next six months. Marcus is currently working on:",
+      "answers": [
+        "Screening job candidates",
+        "Personnel Planning",
+        "Interviewing job candidates",
+        "Writing job descriptions"
+      ],
+      "correct": 1,
+      "explanation": "Marcus is performing personnel planning to forecast job needs."
+    },
+    {
+      "number": 5,
+      "question": "The process of deciding how to fill executive positions at a firm is known as:",
+      "answers": [
+        "Internal recruiting",
+        "Succession planning",
+        "Long term forecasting",
+        "Advanced interviewing"
+      ],
+      "correct": 1,
+      "explanation": "Succession planning ensures leadership continuity for key roles."
+    },
+    {
+      "number": 6,
+      "question": "A firm’s _______ should guide employment planning and determine the types of skills and competencies the firm needs.",
+      "answers": [
+        "Job analysis",
+        "Organization chart",
+        "Marketing planning",
+        "Strategic business planning"
+      ],
+      "correct": 3,
+      "explanation": "Strategic planning drives workforce decisions and skill alignment."
+    },
+    {
+      "number": 7,
+      "question": "Succession planning requires making forecasts in three steps: develop inside candidates, assess and choose those who will fill the key position, and:",
+      "answers": [
+        "Identify key needs",
+        "Job specifications",
+        "Global trends",
+        "Labor relations"
+      ],
+      "correct": 0,
+      "explanation": "Identifying key future roles is the first step in succession planning."
+    },
+    {
+      "number": 8,
+      "question": "Which of the following terms refers to the study of a firm’s past employment needs over a period of years to predict future needs?",
+      "answers": [
+        "Ratio analysis",
+        "Trend analysis",
+        "Graphical analysis",
+        "Computer analysis"
+      ],
+      "correct": 1,
+      "explanation": "Trend analysis uses historical data to project hiring needs."
+    },
+    {
+      "number": 9,
+      "question": "A trend analysis is limited in its usefulness because it:",
+      "answers": [
+        "Overlooks the passage of time in regards to staffing",
+        "Addresses only the financial impact of employment changes",
+        "Assumes consistent increases in worker productivity",
+        "Overlooks the potential for changes in skills needed"
+      ],
+      "correct": 3,
+      "explanation": "Trend analysis doesn't adapt well to shifts in required qualifications."
+    },
+    {
+      "number": 10,
+      "question": "Which of the following determines future staff needs by using ratios between a causal factor and the number of employees required?",
+      "answers": [
+        "Ratio analysis",
+        "Forecasting ratio",
+        "Personnel ratio",
+        "Ratio matrix"
+      ],
+      "correct": 0,
+      "explanation": "Ratio analysis compares business metrics to staff requirements."
+    },
+    {
+      "number": 11,
+      "question": "When using either a trend analysis or ratio analysis, it is assumed that ________ will remain the same.",
+      "answers": [
+        "Staffing levels",
+        "Currency rates",
+        "Productivity levels",
+        "Recruitment plans"
+      ],
+      "correct": 2,
+      "explanation": "These tools rely on the assumption of stable productivity."
+    },
+    {
+      "number": 12,
+      "question": "A ________ is a graphical method used to help identify how two variables are related.",
+      "answers": [
+        "Trend analysis",
+        "Ratio analysis",
+        "Scatter plot",
+        "Productivity chart"
+      ],
+      "correct": 2,
+      "explanation": "Scatter plots reveal relationships between variables."
+    },
+    {
+      "number": 13,
+      "question": "Which of the following refers to company records showing present performance and promotability of inside candidates for a firm's top positions?",
+      "answers": [
+        "Yield pyramids",
+        "Trend analysis chart",
+        "Succession planning tools",
+        "Personnel replacement chart"
+      ],
+      "correct": 3,
+      "explanation": "Personnel replacement charts track leadership readiness internally."
+    },
+    {
+      "number": 14,
+      "question": "When a firm refers to filling jobs like that of a maintenance clerk, personnel planning is called succession planning.",
+      "answers": ["True", "False"],
+      "correct": 1,
+      "explanation": "False. Succession planning applies to key strategic positions."
+    },
+    {
+      "number": 15,
+      "question": "The assumption shared by both trend analysis and ratio analysis is that practices remain the same.",
+      "answers": ["True", "False"],
+      "correct": 0,
+      "explanation": "True. These forecasting methods assume no major changes."
+    }
+  ]
+  
