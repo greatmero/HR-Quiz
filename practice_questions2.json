@@ -1,0 +1,726 @@
+[
+  {
+    "number": 1,
+    "question": "Which HRM function involves forecasting an organization's future demand for employees?",
+    "answers": [
+      "Recruitment",
+      "Training",
+      "Personnel planning",
+      "Employee relations"
+    ],
+    "correct": 2,
+    "explanation": "Personnel planning is the process of forecasting future HR needs to ensure the organization has the right workforce in place."
+  },
+  {
+    "number": 2,
+    "question": "What is the primary goal of human resource management?",
+    "answers": [
+      "To maximize employee turnover",
+      "To achieve organizational goals through effective management of people",
+      "To minimize employee engagement",
+      "To reduce operational costs"
+    ],
+    "correct": 1,
+    "explanation": "HRM aims to support the achievement of organizational objectives through the strategic management of human capital."
+  },
+  {
+    "number": 3,
+    "question": "Which of the following best describes HRM's role in an organization?",
+    "answers": [
+      "Solely hiring employees",
+      "Managing employee relations and performance",
+      "Handling financial planning",
+      "Overseeing product development"
+    ],
+    "correct": 1,
+    "explanation": "HRM involves managing employee relations, performance, training, compensation, and more—not just hiring."
+  },
+  {
+    "number": 4,
+    "question": "Which technique is commonly used for job analysis?",
+    "answers": [
+      "Brainstorming",
+      "SWOT analysis",
+      "Task analysis",
+      "Competitive analysis"
+    ],
+    "correct": 2,
+    "explanation": "Task analysis breaks down job responsibilities and duties, which is central to job analysis."
+  },
+  {
+    "number": 5,
+    "question": "What is a key component of talent management?",
+    "answers": [
+      "Reducing training programs",
+      "Developing and retaining skilled employees",
+      "Minimizing employee benefits",
+      "Increasing employee turnover"
+    ],
+    "correct": 1,
+    "explanation": "Talent management focuses on identifying, developing, and retaining top talent to drive business success."
+  },
+  {
+    "number": 6,
+    "question": "Which document is typically produced from a job analysis?",
+    "answers": [
+      "Business plan",
+      "Job description",
+      "Marketing strategy",
+      "Financial report"
+    ],
+    "correct": 1,
+    "explanation": "Job descriptions summarize the duties, responsibilities, and qualifications derived from job analysis."
+  },
+  {
+    "number": 7,
+    "question": "What is the purpose of personnel planning?",
+    "answers": [
+      "To lay off employees",
+      "To forecast and manage future HR needs",
+      "To minimize employee engagement",
+      "To reduce training costs"
+    ],
+    "correct": 1,
+    "explanation": "Personnel planning helps ensure that the organization can meet its future staffing requirements effectively."
+  },
+  {
+    "number": 8,
+    "question": "Which of the following is an advantage of internal recruitment?",
+    "answers": [
+      "Bringing in new ideas",
+      "Lower recruitment costs",
+      "Higher training costs",
+      "Increased risk of turnover"
+    ],
+    "correct": 1,
+    "explanation": "Internal recruitment reduces costs and boosts employee morale by promoting from within."
+  },
+  {
+    "number": 9,
+    "question": "Which external recruitment method involves hiring candidates directly from educational institutions?",
+    "answers": [
+      "Online job postings",
+      "Campus recruiting",
+      "Employee referrals",
+      "Walk-in applications"
+    ],
+    "correct": 1,
+    "explanation": "Campus recruiting involves partnerships with schools to attract entry-level talent directly."
+  },
+  {
+    "number": 10,
+    "question": "Which type of test measures an applicant’s current skills and abilities?",
+    "answers": [
+      "Intelligence test",
+      "Aptitude test",
+      "Ability test",
+      "Personality test"
+    ],
+    "correct": 2,
+    "explanation": "Ability tests measure current skill levels relevant to job requirements, distinguishing them from aptitude (potential to learn)."
+  },
+  {
+    "number": 11,
+    "question": "What is a common method for evaluating candidates during the selection process?",
+    "answers": [
+      "Resume review",
+      "Physical examination",
+      "Background check",
+      "All of the above"
+    ],
+    "correct": 3,
+    "explanation": "The selection process typically involves a combination of methods including resume reviews, background checks, and exams."
+  },
+  {
+    "number": 12,
+    "question": "What is the main goal of the selection process?",
+    "answers": [
+      "To reject as many candidates as possible",
+      "To predict which applicants will be successful on the job",
+      "To increase the number of applications",
+      "To reduce hiring costs"
+    ],
+    "correct": 1,
+    "explanation": "Selection aims to identify candidates most likely to succeed in the job role based on fit, skills, and potential."
+  },
+  {
+    "number": 13,
+    "question": "Which type of interview involves a set of predetermined questions asked in a specific order?",
+    "answers": [
+      "Informal interview",
+      "Group interview",
+      "Structured interview",
+      "Panel interview"
+    ],
+    "correct": 2,
+    "explanation": "Structured interviews enhance reliability by standardizing the questions and order across all candidates."
+  },
+  {
+    "number": 14,
+    "question": "What is the primary benefit of structured interviews?",
+    "answers": [
+      "Flexibility in questioning",
+      "Reduced preparation time",
+      "Increased reliability and validity",
+      "Higher training costs"
+    ],
+    "correct": 2,
+    "explanation": "Structured interviews improve consistency and reduce interviewer bias, increasing the reliability of hiring decisions."
+  },
+  {
+    "number": 15,
+    "question": "Which type of interview assesses how candidates handled past situations?",
+    "answers": [
+      "Behavioral interview",
+      "Stress interview",
+      "Informal interview",
+      "Group interview"
+    ],
+    "correct": 0,
+    "explanation": "Behavioral interviews focus on past behavior as the best predictor of future performance."
+  },
+  {
+    "number": 16,
+    "question": "What is the primary focus of employee development?",
+    "answers": [
+      "Short-term performance improvement",
+      "Long-term career growth",
+      "Immediate job training",
+      "Cost reduction"
+    ],
+    "correct": 1,
+    "explanation": "Development aims to prepare employees for future roles and responsibilities, supporting long-term career advancement."
+  },
+  {
+    "number": 17,
+    "question": "Which of the following is an example of off-the-job training?",
+    "answers": [
+      "Job rotation",
+      "Apprenticeship",
+      "Classroom training",
+      "Job shadowing"
+    ],
+    "correct": 2,
+    "explanation": "Classroom training is conducted away from the workplace, making it a classic off-the-job training method."
+  },
+  {
+    "number": 18,
+    "question": "What is a key advantage of on-the-job training?",
+    "answers": [
+      "Lower initial costs",
+      "Theoretical knowledge",
+      "Immediate application of skills",
+      "Reduced supervision"
+    ],
+    "correct": 2,
+    "explanation": "On-the-job training allows learners to apply skills immediately, improving retention and job performance."
+  },
+  {
+    "number": 19,
+    "question": "Which performance appraisal method uses specific incidents of effective and ineffective performance?",
+    "answers": [
+      "Management by Objectives (MBO)",
+      "Ranking Method",
+      "Critical Incident Method",
+      "360-degree feedback"
+    ],
+    "correct": 2,
+    "explanation": "The critical incident method documents key moments of employee behavior for detailed performance assessment."
+  },
+  {
+    "number": 20,
+    "question": "What is the primary purpose of performance management?",
+    "answers": [
+      "To increase employee turnover",
+      "To align employee performance with organizational goals",
+      "To reduce operational costs",
+      "To minimize employee training"
+    ],
+    "correct": 1,
+    "explanation": "Performance management ensures employee contributions support the overall strategic goals of the organization."
+  },
+  {
+    "number": 21,
+    "question": "Which method involves setting specific, measurable goals with employees?",
+    "answers": [
+      "Ranking Method",
+      "Critical Incident Method",
+      "Management by Objectives (MBO)",
+      "Narrative Method"
+    ],
+    "correct": 2,
+    "explanation": "MBO involves managers and employees jointly setting clear, measurable objectives to track performance."
+  },
+  {
+    "number": 22,
+    "question": "What is the primary goal of career development programs?",
+    "answers": [
+      "To increase employee turnover",
+      "To enhance future career opportunities",
+      "To reduce employee benefits",
+      "To minimize training costs"
+    ],
+    "correct": 1,
+    "explanation": "Career development programs aim to support employees in achieving long-term career success and satisfaction."
+  },
+  {
+    "number": 23,
+    "question": "Which of the following is a common retention strategy?",
+    "answers": [
+      "Increasing workload",
+      "Reducing salaries",
+      "Offering career development opportunities",
+      "Limiting communication"
+    ],
+    "correct": 2,
+    "explanation": "Providing opportunities for career growth encourages employees to stay and grow with the organization."
+  },
+  {
+    "number": 24,
+    "question": "Which factor is most likely to increase employee retention?",
+    "answers": [
+      "Poor management",
+      "Competitive salary and benefits",
+      "Lack of training",
+      "High turnover rates"
+    ],
+    "correct": 1,
+    "explanation": "Competitive compensation is a primary driver of employee satisfaction and long-term retention."
+  },
+  {
+    "number": 25,
+    "question": "What is the main purpose of labor unions?",
+    "answers": [
+      "To increase employer profits",
+      "To advocate for employees' rights and benefits",
+      "To reduce employee benefits",
+      "To streamline recruitment processes"
+    ],
+    "correct": 1,
+    "explanation": "Labor unions represent employees in negotiations with management regarding wages, hours, and conditions."
+  },
+  {
+    "number": 26,
+    "question": "Which of the following is a key component of collective bargaining?",
+    "answers": [
+      "Individual performance reviews",
+      "Negotiating wages and working conditions",
+      "Employee termination",
+      "Financial planning"
+    ],
+    "correct": 1,
+    "explanation": "Collective bargaining is the process of negotiating employment terms between employers and labor unions."
+  },
+  {
+    "number": 27,
+    "question": "Which act protects employees' rights to organize and bargain collectively?",
+    "answers": [
+      "Fair Labor Standards Act",
+      "Civil Rights Act",
+      "National Labor Relations Act",
+      "Occupational Safety and Health Act"
+    ],
+    "correct": 2,
+    "explanation": "The NLRA ensures employees have the legal right to unionize and negotiate collectively with employers."
+  },
+  {
+    "number": 28,
+    "question": "Which challenge is commonly faced in global HR management?",
+    "answers": [
+      "Uniform legal regulations",
+      "Cultural differences and diversity",
+      "Consistent currency values",
+      "Standardized training programs"
+    ],
+    "correct": 1,
+    "explanation": "Global HR must navigate diverse cultural expectations, labor laws, and business practices."
+  },
+  {
+    "number": 29,
+    "question": "What is a primary strategy for effective global HR management?",
+    "answers": [
+      "Ignoring local customs",
+      "Implementing local HR practices",
+      "Centralizing all HR decisions",
+      "Reducing global workforce diversity"
+    ],
+    "correct": 1,
+    "explanation": "Localizing HR practices ensures compliance with regional regulations and cultural alignment."
+  },
+  {
+    "number": 30,
+    "question": "Which of the following is essential for managing a global workforce?",
+    "answers": [
+      "Uniform employee benefits",
+      "Understanding cultural differences",
+      "Reducing employee training",
+      "Standardizing job roles"
+    ],
+    "correct": 1,
+    "explanation": "Cultural awareness is key to engaging and managing diverse teams across international boundaries."
+  },
+  {
+    "number": 31,
+    "question": "Which component is included in indirect compensation?",
+    "answers": [
+      "Base salary",
+      "Performance bonuses",
+      "Health insurance",
+      "Overtime pay"
+    ],
+    "correct": 2,
+    "explanation": "Indirect compensation includes non-cash benefits such as health insurance, paid leave, and retirement contributions."
+  },
+  {
+    "number": 32,
+    "question": "What is the primary goal of a performance-based pay system?",
+    "answers": [
+      "To increase base salaries",
+      "To reward high-performing employees",
+      "To reduce overall compensation costs",
+      "To standardize employee benefits"
+    ],
+    "correct": 1,
+    "explanation": "Performance-based pay systems are designed to incentivize and reward employee contributions and outcomes."
+  },
+  {
+    "number": 33,
+    "question": "Which method is used to determine the relative worth of jobs within an organization?",
+    "answers": [
+      "SWOT analysis",
+      "Job evaluation",
+      "Financial analysis",
+      "Market research"
+    ],
+    "correct": 1,
+    "explanation": "Job evaluation systematically compares job roles to establish fair and equitable pay structures."
+  },
+  {
+    "number": 34,
+    "question": "What is the main purpose of employee engagement programs?",
+    "answers": [
+      "To increase employee turnover",
+      "To enhance employee satisfaction and productivity",
+      "To reduce training costs",
+      "To streamline recruitment processes"
+    ],
+    "correct": 1,
+    "explanation": "Engagement programs aim to create a motivated and committed workforce that contributes positively to performance."
+  },
+  {
+    "number": 35,
+    "question": "Which of the following is a common method for improving employee engagement?",
+    "answers": [
+      "Offering flexible work arrangements",
+      "Reducing employee benefits",
+      "Increasing workload",
+      "Limiting communication"
+    ],
+    "correct": 0,
+    "explanation": "Flexible work arrangements promote work-life balance, a key factor in improving engagement."
+  },
+  {
+    "number": 36,
+    "question": "Which of the following factors contributes to high employee engagement?",
+    "answers": [
+      "Lack of career development",
+      "Poor management",
+      "Recognition and rewards",
+      "High employee turnover"
+    ],
+    "correct": 2,
+    "explanation": "Recognition and rewards reinforce positive behavior and foster a sense of value and motivation."
+  },
+  {
+    "number": 37,
+    "question": "What is the primary objective of occupational health and safety programs?",
+    "answers": [
+      "To increase productivity",
+      "To ensure the health and safety of employees",
+      "To reduce employee turnover",
+      "To enhance employee engagement"
+    ],
+    "correct": 1,
+    "explanation": "Occupational health and safety programs aim to prevent workplace injuries and maintain employee well-being."
+  },
+  {
+    "number": 38,
+    "question": "Which of the following is typically included in employee wellness programs?",
+    "answers": [
+      "Physical fitness",
+      "Job performance evaluation",
+      "Financial planning",
+      "Equipment maintenance"
+    ],
+    "correct": 0,
+    "explanation": "Wellness programs often include initiatives like fitness classes, gym memberships, and health screenings."
+  },
+  {
+    "number": 39,
+    "question": "What is a key benefit of implementing employee wellness programs?",
+    "answers": [
+      "Increased operational costs",
+      "Improved employee health and productivity",
+      "Reduced employee engagement",
+      "Higher employee turnover"
+    ],
+    "correct": 1,
+    "explanation": "Wellness programs improve health outcomes and reduce absenteeism, leading to better productivity."
+  },
+  {
+    "number": 40,
+    "question": "What is the main advantage of using HR analytics?",
+    "answers": [
+      "Reducing the need for HR personnel",
+      "Making data-driven HR decisions",
+      "Increasing training costs",
+      "Enhancing employee turnover"
+    ],
+    "correct": 1,
+    "explanation": "HR analytics provides actionable insights to improve HR strategy, workforce planning, and decision-making."
+  },
+  {
+    "number": 41,
+    "question": "Which technology is commonly used in HR for managing employee information?",
+    "answers": [
+      "Enterprise Resource Planning (ERP)",
+      "Customer Relationship Management (CRM)",
+      "Human Resource Information System (HRIS)",
+      "Learning Management System (LMS)"
+    ],
+    "correct": 2,
+    "explanation": "HRIS is a specialized software solution designed to manage employee data such as payroll, benefits, and records."
+  },
+  {
+    "number": 42,
+    "question": "What is a common use of HR analytics?",
+    "answers": [
+      "Forecasting future workforce needs",
+      "Reducing employee benefits",
+      "Increasing hiring costs",
+      "Limiting employee training"
+    ],
+    "correct": 0,
+    "explanation": "HR analytics is often used to project future staffing needs based on trends in turnover, performance, and hiring."
+  },
+  {
+    "number": 43,
+    "question": "What is the primary goal of diversity and inclusion initiatives?",
+    "answers": [
+      "To comply with legal requirements",
+      "To create a more equitable and inclusive workplace",
+      "To increase recruitment costs",
+      "To reduce employee training"
+    ],
+    "correct": 1,
+    "explanation": "Diversity and inclusion initiatives aim to foster a culture of fairness, respect, and equal opportunity for all employees."
+  },
+  {
+    "number": 44,
+    "question": "Which of the following is a practice to promote diversity in the workplace?",
+    "answers": [
+      "Standardizing all roles and responsibilities",
+      "Implementing unconscious bias training",
+      "Reducing recruitment from diverse backgrounds",
+      "Limiting employee feedback"
+    ],
+    "correct": 1,
+    "explanation": "Unconscious bias training helps address hidden biases and supports fair recruitment and promotion processes."
+  },
+  {
+    "number": 45,
+    "question": "What is a benefit of promoting diversity and inclusion in the workplace?",
+    "answers": [
+      "Increased operational costs",
+      "Enhanced creativity and innovation",
+      "Reduced employee engagement",
+      "Higher employee turnover"
+    ],
+    "correct": 1,
+    "explanation": "Diverse teams bring different perspectives, leading to greater creativity, innovation, and problem-solving."
+  },
+  {
+    "number": 46,
+    "question": "What is strategic HRM primarily focused on?",
+    "answers": [
+      "Short-term employee management",
+      "Aligning HR practices with organizational goals",
+      "Reducing HR expenses",
+      "Standardizing all HR processes"
+    ],
+    "correct": 1,
+    "explanation": "Strategic HRM ensures that human capital initiatives directly support and align with business objectives."
+  },
+  {
+    "number": 47,
+    "question": "Which of the following is a key component of strategic HRM?",
+    "answers": [
+      "Ad-hoc recruitment",
+      "Workforce planning",
+      "Limiting employee training",
+      "Reducing employee benefits"
+    ],
+    "correct": 1,
+    "explanation": "Workforce planning is a proactive component of strategic HRM to ensure the right talent is available when needed."
+  },
+  {
+    "number": 48,
+    "question": "What is a primary benefit of strategic HRM?",
+    "answers": [
+      "Improved alignment of HR and business strategies",
+      "Reduced employee training",
+      "Increased turnover rates",
+      "Limited workforce diversity"
+    ],
+    "correct": 0,
+    "explanation": "Strategic HRM enhances alignment between HR practices and the company's goals, improving performance and competitiveness."
+  },
+  {
+    "number": 49,
+    "question": "What is the main purpose of employee performance management?",
+    "answers": [
+      "To reduce employee salaries",
+      "To align employee performance with organizational goals",
+      "To increase employee turnover",
+      "To limit employee growth"
+    ],
+    "correct": 1,
+    "explanation": "Performance management ensures employee contributions are aligned with and support the achievement of business objectives."
+  },
+  {
+    "number": 50,
+    "question": "Which reward system is based on employee performance and contribution?",
+    "answers": [
+      "Base pay",
+      "Seniority-based pay",
+      "Incentive pay",
+      "Hourly wages"
+    ],
+    "correct": 2,
+    "explanation": "Incentive pay links compensation to results, motivating high performance and achieving business outcomes."
+  },
+  {
+    "number": 51,
+    "question": "What is a key challenge in implementing performance appraisals?",
+    "answers": [
+      "Lack of employee participation",
+      "Consistent and unbiased evaluations",
+      "Limited training resources",
+      "High training costs"
+    ],
+    "correct": 1,
+    "explanation": "Ensuring fair and consistent evaluations across different managers and departments is a major challenge in performance appraisals."
+  },
+  {
+    "number": 52,
+    "question": "What is the main objective of employment laws and regulations?",
+    "answers": [
+      "To increase employer profits",
+      "To protect the rights and welfare of employees",
+      "To reduce employee benefits",
+      "To streamline recruitment processes"
+    ],
+    "correct": 1,
+    "explanation": "Employment laws aim to promote fair treatment, prevent discrimination, and ensure safe working conditions."
+  },
+  {
+    "number": 53,
+    "question": "Which of the following is an example of ethical behavior in HR?",
+    "answers": [
+      "Favoring certain employees",
+      "Ensuring fair recruitment practices",
+      "Discriminating against applicants",
+      "Ignoring employee grievances"
+    ],
+    "correct": 1,
+    "explanation": "Ethical HR behavior includes impartial hiring, promoting fairness, and addressing concerns equitably."
+  },
+  {
+    "number": 54,
+    "question": "Which law prohibits discrimination in employment based on race, color, religion, sex, or national origin?",
+    "answers": [
+      "Fair Labor Standards Act",
+      "Civil Rights Act",
+      "National Labor Relations Act",
+      "Occupational Safety and Health Act"
+    ],
+    "correct": 1,
+    "explanation": "The Civil Rights Act of 1964 prohibits employment discrimination based on race, color, religion, sex, or national origin."
+  },
+  {
+    "number": 55,
+    "question": "What is the primary purpose of using HR metrics?",
+    "answers": [
+      "To increase training costs",
+      "To make data-driven HR decisions",
+      "To reduce employee benefits",
+      "To standardize compensation packages"
+    ],
+    "correct": 1,
+    "explanation": "HR metrics provide quantifiable insights that guide strategic HR decisions and continuous improvement."
+  },
+  {
+    "number": 56,
+    "question": "Which of the following is a common HR metric?",
+    "answers": [
+      "Employee turnover rate",
+      "Company profit margins",
+      "Market share",
+      "Advertising expenses"
+    ],
+    "correct": 0,
+    "explanation": "Turnover rate is a fundamental HR metric used to assess employee retention and workforce stability."
+  },
+  {
+    "number": 57,
+    "question": "What is a benefit of using HR metrics and analytics?",
+    "answers": [
+      "Improved decision-making",
+      "Increased training costs",
+      "Higher employee turnover",
+      "Reduced employee engagement"
+    ],
+    "correct": 0,
+    "explanation": "HR analytics supports smarter decisions by offering insights on workforce performance, trends, and risks."
+  },
+  {
+    "number": 58,
+    "question": "What is the primary goal of succession planning?",
+    "answers": [
+      "To identify and develop future leaders",
+      "To reduce employee turnover",
+      "To increase employee benefits",
+      "To streamline recruitment processes"
+    ],
+    "correct": 0,
+    "explanation": "Succession planning prepares high-potential employees to fill key roles and ensure leadership continuity."
+  },
+  {
+    "number": 59,
+    "question": "Which of the following is a key element of effective succession planning?",
+    "answers": [
+      "Limiting employee training",
+      "Identifying critical roles and potential successors",
+      "Reducing employee benefits",
+      "Increasing employee turnover"
+    ],
+    "correct": 1,
+    "explanation": "Effective succession planning focuses on identifying leadership gaps and preparing future talent."
+  },
+  {
+    "number": 60,
+    "question": "Why is succession planning important for organizations?",
+    "answers": [
+      "To increase operational costs",
+      "To ensure leadership continuity and organizational stability",
+      "To reduce training programs",
+      "To minimize employee engagement"
+    ],
+    "correct": 1,
+    "explanation": "Succession planning ensures that organizations are prepared for future leadership needs, reducing disruption during transitions."
+  }
+]
+
+
+
+
